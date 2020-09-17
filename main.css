@@ -1,24 +1,118 @@
 /* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 { width: 5.5%; }
+.col-2 { width: 14%; }
+.col-3 { width: 22.5%; }
+.col-4 { width: 31%; }
+.col-5 { width: 39.5%; }
+.col-6 { width: 48%; }
+.col-7 { width: 56.5%; }
+.col-8{ width: 65%; }
+.col-9 { width: 73.5%; }
+.col-10 { width: 82%; }
+.col-11 { width: 90.5%; }
+.col-12 { width: 99%; }
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
-        width: 100%;
+        width: 99%;
+    }
+
+}
+@media screen and (max-width: 1545px) {
+    .smaller {
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 846px) {
+    input[type=text] {
+        max-width: 100%;
     }
 }
 
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 7px;
+    font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    width: 95%;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+.col {
+    float: left;
+    margin-right: 3%;
+}
+
+.col:last-of-type {
+    margin-right: 1%;
+}
+
+.box {
+    /*background-color: mediumblue;*/
+    /*background-color: #333;*/
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    /*border: 3px solid black;*/
+    padding: 10px 0 10px 0;
+}
+
+.box-header {
+    /*background-color: mediumblue;*/
+    /*background-color: #333;*/
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding: 0px 0px 10px 20px;
+}
+
+.box-box {
+    /*background-color: mediumblue;*/
+    /*background-color: #333;*/
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    border: 1px solid black;
+    padding: 0px 0px 10px 20px;
+}
+.banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+}
+.box-item {
+    /*background-color: mediumblue;*/
+    /*background-color: #333;*/
+    color: black;
+    text-align: left;
+    font-size: 1.25vm;
+    margin-top: 10px;
+    /*border: 3px solid black;*/
+    padding: 0px 0px 0px 0px;
+}
+
+.gray-bg {
+    background-color: #333;
+}
+.white-text {
+    color:white;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -30,7 +124,6 @@ nav ul {
 nav li {
     float: right;
 }
-
 nav li a {
     display: block;
     color: white;
@@ -45,4 +138,36 @@ nav li input {
 
 nav li a:hover {
     background-color: #111;
+}
+.fontsize20 {
+    font-size: 20px;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 20%;
+    padding-top: 10px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #333333;/* Footer height */
+    text-align: center;
 }
