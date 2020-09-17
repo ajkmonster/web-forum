@@ -29,6 +29,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,11 +42,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600306105855</updated>
-      <workItem from="1600306106913" duration="451000" />
+      <workItem from="1600306106913" duration="4092000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600308335916">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="360" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1600308335916" />
+    <state x="360" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1600306622173" />
+    <state x="991" y="23" width="432" height="975" key="dock-window-1" timestamp="1600311207882">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="991" y="23" width="432" height="975" key="dock-window-1/0.23.1792.1031@0.23.1792.1031" timestamp="1600311207882" />
   </component>
 </project>
